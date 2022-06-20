@@ -1,5 +1,4 @@
 // prime_test_brutee.cpp
-#include <iostream>
 
 bool is_prime (int p)
 {
