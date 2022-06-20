@@ -1,22 +1,20 @@
-// prime_test_brute.cpp
+// prime_test_brutee.cpp
 #include <iostream>
 
 bool is_prime (int p)
 {
   int n = 2;
-  
+
+  // If p is 1, it is not prime
   if (p == 1) { return false; }
   else
   {
-    std::cout << "Dividing " << p << " by ";
-
+    // Check one by one whether integers smaller than p divided p
     while (n < p)
     {
-      std::cout << n << "... ";
-
       if (p % n == 0)
       {
-	std::cout << n << " divides " << p << ".\n";
+	// n divides p, so p is not prime
 	return false;
 	break;
       }
@@ -26,25 +24,7 @@ bool is_prime (int p)
       }
     }
 
-    std::cout << "None of them divide " << p << ".\n";
+    // If this is reached, none of the n divided p
     return true;
   }
-}
-
-int main ()
-{
-  int p;
-  bool b;
-  
-  do
-  {
-    std::cout << "Enter a positive integer (0 to exit): ";
-    std::cin >> p;
-    b = is_prime(p);
-
-    if (b == true) { std::cout << p << " is prime!\n"; }
-    else { std::cout << p << " is not prime.\n"; }
-    } while (p != 0);
-
-  return 0;
 }
