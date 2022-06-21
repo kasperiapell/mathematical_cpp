@@ -1,4 +1,4 @@
-// prime_test_brutee.cpp
+// prime_test_brute.cpp
 
 bool is_prime (int p)
 {
