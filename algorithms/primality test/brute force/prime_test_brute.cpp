@@ -1,7 +1,6 @@
 // prime_test_brute.cpp
 
-bool is_prime (int p)
-{
+bool is_prime (int p) {
   int n = 2;
 
   // If p is 1, it is not prime

@@ -1,8 +1,7 @@
 // prime_test_brute_improved_search_space.cpp
 #include <cmath>
 
-bool is_prime (int p)
-{
+bool is_prime (int p) {
   int n = 2;
 
   // If p is 1, it is not prime

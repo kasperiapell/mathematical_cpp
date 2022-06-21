@@ -1,0 +1,28 @@
+// insertion_sort.cpp
+
+void insertion_sort(int a[], int length) {
+  int n, m, x;
+
+  for (n=1; n<length; n++) {
+    for (m=n; m>0; m--) {
+      x = a[m];
+	
+      if (a[m - 1] > x) {
+	a[m] = a[m - 1];
+	a[m - 1] = x;
+      }
+    }
+  }
+}
+
+void insertion_sort(int a[], int length) {
+  int n, m, x;
+
+  for (n=1; n<length; n++) {
+    x = a[n];
+    for (m=n; m>0 && a[m-1]>x; m--) {
+      a[m] = a[m-1];
+    }
+    x[m] = x;
+  }
+}
