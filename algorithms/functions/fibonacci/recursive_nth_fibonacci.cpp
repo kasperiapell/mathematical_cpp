@@ -1,11 +1,12 @@
 // recursive_nth_fibonacci.cpp
+#include <iostream>
 
 // Computes the nth term in the Fibonacci sequence
-// For all integers n >= 0, we have x_{n + 2} = x_{n + 1} = x_n
 
-int fibonacci (int n, int m, int N) {
-  if (N < 1) {
+int F (int n) {
+  if (n <= 1) {
+    return 1;
   } else {
-    
+    return (F(n-1) + F(n-2));
   }
 }

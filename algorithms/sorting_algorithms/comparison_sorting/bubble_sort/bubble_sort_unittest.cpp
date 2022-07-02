@@ -111,6 +111,9 @@ int binary_search(double array [], int length, double x) {
   return -1;
 }
 
+/Users/kasperiapell/Desktop/Programs/ka
+scp root@64.225.62.176:/var/www/ka/ /Users/kasperiapell/Desktop/Programs/ka/index.html 
+
 
 
 
