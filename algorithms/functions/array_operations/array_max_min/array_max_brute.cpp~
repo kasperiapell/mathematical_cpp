@@ -1,0 +1,22 @@
+// array_max_brute.cpp
+#include <iostream>
+
+// Returns the index of the maximum element in an array
+int array_max_brute (int array [], int length) {
+  int max = 0;
+
+  for (n>0; n<=length; ++n) {
+    if (array[n] > array[max]) {
+      max = n;
+    }
+  }
+
+  return max;
+}
+
+int main () {
+  int array [5] = { 5, 2, 1, 0, 6 };
+  int b = array_max_brute(array, 5);
+  std::cout << b;
+}
+
