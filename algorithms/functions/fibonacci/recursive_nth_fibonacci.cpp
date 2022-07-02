@@ -1,5 +1,4 @@
 // recursive_nth_fibonacci.cpp
-#include <iostream>
 
 // Computes the nth term in the Fibonacci sequence
 
