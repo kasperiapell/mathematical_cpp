@@ -6,16 +6,18 @@ struct Node {
   Node * next;
 };
 
-// Initialise two nodes
-// Node * A = new Node;
-// Node * B = new Node;
+/*
+1. Initialise two nodes:
+Node * A = new Node;
+Node * B = new Node;
 
-// Add values to the nodes
-// A->value = 0;
-// B->value = 1;
+2. Add values to the nodes
+A->value = 0;
+B->value = 1;
 
-// Connect B to A to form a linked list
-// A->next = B;
+3. Connect B to A to form a linked list
+A->next = B;
 
-// Confirm that the connection is successful
-// std::cout << (A->next)->value;
+4. Confirm that the connection is successful
+std::cout << (A->next)->value;
+*/
